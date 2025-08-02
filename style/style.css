@@ -1,0 +1,93 @@
+body{
+margin: 0;
+background-color: chocolate;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.header{
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
+    height: 30px;
+    color: chocolate;
+    background-color: rgba(0, 0, 0, 0.648);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 99px;
+
+}
+.seconds:hover{
+    color: white;
+
+}
+.second_count{
+    background-color: rgba(0, 0, 0, 0.392);
+    width: 50px;
+    height: 50px;
+    border-radius: 99px;
+    color: chocolate;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.text_parent_area{
+    position: relative;
+    width: 60%;
+}
+.text_area{
+    position: absolute;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.648);
+    color: chocolate;
+    border: none;
+    font-weight: bolder;
+    outline: none;
+    font-size: 50px;
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    padding: 5px;
+    font-family: monospace; /* better for typing apps */}
+
+
+.text_generating_area{
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.648);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bolder;
+    outline: none;
+    font-size: 50px;
+    padding: 5px;
+   width: 100%;
+   font-family: monospace; /* better for typing apps */
+   color: lightgray
+}
+.restart{
+    width: 50px;
+}
+.space::before {
+  content: " ";
+}
