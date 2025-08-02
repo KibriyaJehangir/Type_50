@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Type 50</title>
+
+    
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="assets/type50_logo.png" alt=""></div>
+        <div class="time">time :</div>
+        <div class="seconds" id="30_sec_id" onclick="onclick_30sec();">30</div>
+        <div  class="seconds" id="60_sec_id" onclick="onclick_60sec();">60</div>
+        <div  class="seconds" id="120_sec_id" onclick="onclick_120sec();">120</div>
+        </div>
+    
+    <div class="second_count" id="countdown" ><p>0</p></div>
+    <div class="result" id="result"></div>
+    <div class="text_parent_area">
+        <div class="text_area" id="text_area" contenteditable="true" ></div>
+        <div class="text_generating_area" id="text_generating_area"></div>
+       <p></p>
+   </div>
+   <div class="restart" id="restart" onclick="restarting_case();"><img src="assets/retry.png" width="50px" height="70px" alt=""></div>
+
+    <script src="js/script.js">
+
+    </script>
+
+    </body>
+</html>
