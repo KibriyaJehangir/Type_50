@@ -1,6 +1,7 @@
 # Type50 – Typing Speed Test
 
-#### Video Demo: (https://www.youtube.com/watch?v=jB71eWILRyw
+#### Video Demo: (https://www.youtube.com/watch?v=jB71eWILRyw)
+#### Live Demo: (https://kibriyajehangir.github.io/Type_50/)
 ---
 
 #### Description
@@ -110,3 +111,4 @@ If I had more time, I would:
 This project was created by me, **Kibriya**, as part of the final project for Harvard University’s [CS50](https://cs50.harvard.edu/x) course. It is intended for learning purposes only.
 
 ---
+
